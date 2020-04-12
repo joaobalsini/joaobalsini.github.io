@@ -1,0 +1,26 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+{%- if page_paths -%}
+<nav class="navbar is-transparent has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" data-scroll href="#home">Home</a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+
+  <div id="navbar-menu" class="navbar-menu">
+    <div class="navbar-start">
+
+      <a class="navbar-item" data-scroll href="#experience">Experience</a>
+      <a class="navbar-item" data-scroll href="#recomendations">Recomendations</a>
+      <a class="navbar-item" data-scroll href="#education">Education and others</a>
+      <a class="navbar-item" data-scroll href="#open_source_and_projects">Other projects & Open source</a>
+    </div>
+  </div>
+</nav>
+{%- endif -%}

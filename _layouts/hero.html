@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+  {%- include header.html -%}
+
+  <section id="home" class="hero is-dark is-fullheight">
+    {%- include cv_hero_main.html -%}
+  </section>
+  <section id="experience" class="hero is-light is-fullheight">
+    {%- include cv_professional_background.html -%}
+  </section>
+  <section id="recomendations" class="hero is-dark is-fullheight">
+    {%- include cv_recomendations.html -%}
+  </section>
+  <section id="education" class="hero is-light is-fullheight">
+    {%- include cv_education_and_other.html -%}
+  </section>
+  <section id="open_source_and_projects" class="hero is-dark is-fullheight">
+    {%- include cv_open_source.html -%}
+  </section>
+</body>
+
+</html>

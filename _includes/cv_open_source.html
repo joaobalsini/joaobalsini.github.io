@@ -1,0 +1,151 @@
+<div class="hero-body">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h1 class="title">
+          Open source contributions
+        </h1>
+
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">
+                <a target="_blank" href="https://github.com/alexdesousa/hab">Hab</a>
+              </p>
+              <p class="subtitle is-6">
+                <a target="_blank" href="https://github.com/alexdesousa/hab/pull/1">Fixed loading of environment
+                  variables</a>
+              </p>
+              <p class="description">Before that fix, Hab didn't load environment variables automatically on zsh shell.
+                So, when you
+                opened
+                a new shell, you needed to manually switch folders (using cd .) to make it reload the variables.
+              </p>
+              <div class="tags">
+                <span class="tag is-info">Zsh</span>
+                <span class="tag is-info">Shell</span>
+              </div>
+            </div><!-- content -->
+          </div><!-- card-content -->
+        </div><!-- card -->
+        <br />
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">
+                <a target="_blank" href="https://github.com/phoenixframework/phoenix_live_view">Phoenix Live view</a>
+              </p>
+              <p class="subtitle is-6">
+                <a target="_blank" href="https://github.com/phoenixframework/phoenix_live_view/pull/336">Fix crash when
+                  name of element
+                  ends on []</a>
+              </p>
+              <p class="description">When you used liveview with select of type multiple the rendered element had name
+                ending with "[]",
+                something like name = 'object[attribute][]'. I proposed a fix to that problem.
+              </p>
+              <div class="tags">
+                <span class="tag is-info">Elixir</span>
+                <span class="tag is-info">Phoenix</span>
+                <span class="tag is-info">Phoenix Liveview</span>
+              </div>
+            </div><!-- content -->
+          </div><!-- card-content -->
+        </div><!-- card -->
+        <br />
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">
+                <a target="_blank" href="https://github.com/sntran/ueberauth_auth0">Ueberauth Auth0</a>
+              </p>
+              <p class="subtitle is-6">
+                <a target="_blank" href="https://github.com/sntran/ueberauth_auth0/pull/85">Implemented login/password
+                  grant</a>
+              </p>
+              <p class="description">The original authentication flow only supported code as the callback parameter. It
+                then makes a request
+                to auth0 tenant passing code together with client_id and client_secret to get to access token and
+                related parameters. I proposed a way to directly pass access token and related as parameters on the
+                callback function.
+              </p>
+              <div class="tags">
+                <span class="tag is-info">Elixir</span>
+                <span class="tag is-info">Auth0</span>
+                <span class="tag is-info">Cypress</span>
+              </div>
+            </div><!-- content -->
+          </div><!-- card-content -->
+        </div><!-- card -->
+        <br />
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">
+                <a target="_blank" href="https://github.com/toniqsystems/maestro">Maestro</a>
+              </p>
+              <p class="subtitle is-6">
+                <a target="_blank" href="https://github.com/toniqsystems/maestro/pull/27">Helped on initial setup and
+                  documentation</a>
+              </p>
+              <p class="description">Before this contribution the mix tasks defined by Maestro were generating
+                migrations on the wrong
+                folder. I also made another contribution to this project, <a
+                  href="https://github.com/toniqsystems/maestro/pull/26">adding the missing Jason dependency.</a>
+              </p>
+              <div class="tags">
+                <span class="tag is-info">Elixir</span>
+                <span class="tag is-info">Event Sourcing</span>
+                <span class="tag is-info">CQRS</span>
+              </div>
+            </div><!-- content -->
+          </div><!-- card-content -->
+        </div><!-- card -->
+      </div>
+
+      <div class="column">
+        <h1 class="title">
+          Other projects
+        </h1>
+
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4"><a target="_blank" href="https://github.com/joaobalsini/mmo_game">Massive
+                  multiplayer online
+                  game</a></p>
+              <p class="subtitle is-6">Board game implemented in Elixir</p>
+
+              <p class="description">A multiplayer board game implemented using Elixir. It uses a multiple Genservers to
+                maintain state of
+                the board. Next step of this project will be implementing the UI using Liveview.</p>
+              <div class="tags">
+                <span class="tag is-info">Elixir</span>
+                <span class="tag is-info">Genserver</span>
+                <span class="tag is-info">Supervisor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card card-250">
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Movie service</p>
+              <p class="subtitle is-6">Gathering data from multiple services.</p>
+              <p class="description">A service written in Ruby, using Sinatra as a WebServer, that gathers data from
+                multiple services,
+                handle retries and possible failures. Not public yet.</p>
+              <br />
+              <div class="tags">
+                <span class="tag is-info">Ruby</span>
+                <span class="tag is-info">Sinatra</span>
+                <span class="tag is-info">Microservices</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- column-->
+    </div><!-- columns-->
+  </div><!-- container-->
+</div><!-- hero-body-->
