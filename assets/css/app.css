@@ -141,19 +141,6 @@ div.hero-icons a:hover {
   align-self: flex-end;
 }
 
-.card-content-550{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-height: 550px;
+.description-270{
+  min-height: 270px;
 }
-
-.card-content-550 p{
-  width:100%;
-}
-
-.card-550 .tags {
-  align-self: flex-end;
-}
-
-
