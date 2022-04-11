@@ -22,6 +22,11 @@ div.hero-icons a:hover {
 .card-content p.description {
   line-height: 30px;
   letter-spacing: 1px;
+  height: 150px;
+}
+
+.card-content p.description-large {
+  height: 400px;
 }
 
 .image.is-256x256 {
@@ -49,19 +54,6 @@ img.profile {
 
 div.hero-icons a:hover {
   color: #ccc;
-}
-
-.card-content p {
-  color:black !important;
-}
-
-.card-content a {
-  color:#3273dc !important;
-}
-
-.card-content p.description {
-  line-height: 30px;
-  letter-spacing: 1px;
 }
 
 .image.is-256x256 {
@@ -100,7 +92,7 @@ div.hero-icons a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-height: 250px;
+  height: 250px;
 }
 
 .card-200 {
